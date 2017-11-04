@@ -1,13 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  body: MyText
-  rating: 1
+  body: Good Movie
+  rating: 10
   movie: one
   user: one
 
 two:
-  body: MyText
+  body: Bad Movie
   rating: 1
   movie: two
   user: two

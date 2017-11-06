@@ -13,4 +13,8 @@ class ActiveSupport::TestCase
       'Authorization': "Bearer #{token}"
     }
   end
+
+  def json_response
+    ActiveSupport::JSON.decode @response.body
+  end
 end

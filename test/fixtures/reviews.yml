@@ -1,7 +1,7 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  body: Good Movie
+  body: Perfect Movie
   rating: 10
   movie: one
   user: one
@@ -11,3 +11,33 @@ two:
   rating: 1
   movie: two
   user: two
+
+top5_one:
+  body: Almost perfect Movie
+  rating: 9
+  movie: one
+  user: one
+
+top5_two:
+  body: Really Cool Movie
+  rating: 7
+  movie: one
+  user: one
+
+top5_three:
+  body: Okay Movie
+  rating: 5
+  movie: one
+  user: one
+
+top5_four:
+  body: Decent Movie
+  rating: 4
+  movie: one
+  user: one
+
+top5_five:
+  body: Bad Movie
+  rating: 1
+  movie: one
+  user: one
